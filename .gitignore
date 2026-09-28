@@ -1,0 +1,18 @@
+# Runtime state created inside user media projects
+.media-automation/
+
+# Local test and generated media artifacts
+*.mp4
+*.mov
+*.mkv
+*.wav
+*.mp3
+*.png
+*.jpg
+*.jpeg
+
+# Node and editor noise
+node_modules/
+npm-debug.log*
+.DS_Store
+Thumbs.db

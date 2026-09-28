@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "windows-media": {
+      "command": "node",
+      "args": [
+        "${__dirname}/scripts/media-service.mjs"
+      ],
+      "env": {
+        "MEDIA_AUTOMATION_PLUGIN_ROOT": "${__dirname}"
+      }
+    }
+  }
+}

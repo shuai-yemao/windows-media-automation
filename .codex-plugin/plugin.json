@@ -1,0 +1,37 @@
+{
+  "name": "windows-media-automation",
+  "version": "0.1.0",
+  "description": "Local-first Windows media automation with reproducible taste profiles, GitHub style-source tracking, Vlog edit planning, and FFmpeg validation.",
+  "author": {
+    "name": "Local Media Automation"
+  },
+  "license": "MIT",
+  "keywords": [
+    "video",
+    "vlog",
+    "taste-profile",
+    "ffmpeg",
+    "jianying",
+    "windows"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Windows Media Automation",
+    "shortDescription": "监督式本地 AI 视频剪辑与审美风格编排",
+    "longDescription": "在 Windows 本地扫描素材、维护 Taste Profile、登记和验证 GitHub 风格来源、生成可复现的 Vlog 剪辑计划，并用 FFmpeg/FFprobe 检查输出。剪映专业版是主编辑器，插件不内置大模型。",
+    "developerName": "Local Media Automation",
+    "category": "Video",
+    "capabilities": [
+      "Local media analysis",
+      "Taste profile management",
+      "Reproducible edit planning",
+      "Output validation"
+    ],
+    "defaultPrompt": [
+      "扫描我的素材并生成 Vlog 剪辑计划",
+      "登记并验证一个 GitHub 审美 Skill 来源",
+      "检查这个视频是否符合 16:9 1080p 输出要求"
+    ]
+  },
+  "mcpServers": "./.mcp.json"
+}
